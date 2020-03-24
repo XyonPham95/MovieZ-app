@@ -33,8 +33,8 @@ export default function Movie(props) {
               </Badge>
             ))}
           </Card.Text>
-        </Card.Body>
         <Card.Text className="text-light ">{movie.overview}</Card.Text>
+        </Card.Body>
         <Card.Footer className="d-flex row justify-content-between">
           <div className="text-light" style={{ fontSize: 15 }}>
             <span className="text-warning h5">&#9733;</span>

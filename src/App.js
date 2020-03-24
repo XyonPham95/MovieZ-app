@@ -69,7 +69,6 @@ function App() {
     let data = await fetch(url)
     let dataResult = await data.json();
     setMovies(dataResult.results);
-  
   }
 
   let searchByKeyWord = e => {
@@ -108,7 +107,7 @@ function App() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">MovieZNixZ</Navbar.Brand>
+        <Navbar.Brand href="#home" >MovieZNixZ</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
